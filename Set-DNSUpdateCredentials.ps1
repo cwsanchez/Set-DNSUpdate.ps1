@@ -52,7 +52,7 @@ try {
 }
 catch { 
 	if ($silent) {
-		exit
+		continue
 	}
 	else {
 		Write-Host -Object "Error occurred, DNSUpdate user is likely already created. Remove user then run script again."
