@@ -80,7 +80,7 @@ else {
 	}
 
 	if ($OutputSecurePassword) {
-	$returnObj.SecurePass = $userProperties.SecurePassword
+		$returnObj.SecurePass = $userProperties.SecurePassword
 	} 
 	else {
 		$returnObj.SecurePass = $null
