@@ -9,7 +9,7 @@ Will specify the password in cleartext.
 Will specify the password as a secure string.
 <pre><code>Get-DNSUpdateCredentials -SecurePassword [SecureString]</code></pre>
 
-Returns the name of the user and will write an error if it fails to create one. 
+Will generate a password.
 <pre><code>Get-DNSUpdateCredentials -GeneratePassword</code></pre>
 
 Will not return anything, success or fail.
