@@ -4,22 +4,22 @@ Powershell script to set MS DHCP Server's DNS Credentials. It will create a new 
 Syntax:
 
 Will specify the password in cleartext.
-<pre><code>Get-DNSUpdateCredentials -CleartextPassword "Password"</code></pre>
+<pre><code>Set-DNSUpdateCredentials -CleartextPassword "Password"</code></pre>
 
 Will specify the password as a secure string.
-<pre><code>Get-DNSUpdateCredentials -SecurePassword [SecureString]</code></pre>
+<pre><code>Set-DNSUpdateCredentials -SecurePassword [SecureString]</code></pre>
 
 Will generate a password.
-<pre><code>Get-DNSUpdateCredentials -GeneratePassword</code></pre>
+<pre><code>Set-DNSUpdateCredentials -GeneratePassword</code></pre>
 
 Will not return anything, success or fail.
-<pre><code>Get-DNSUpdateCredentials -GeneratePassword -Silent</code></pre>
+<pre><code>Set-DNSUpdateCredentials -GeneratePassword -Silent</code></pre>
 
 Returns cleartext password.
-<pre><code>Get-DNSUpdateCredentials -GeneratePassword -OutputCleartextPassword</code></pre>
+<pre><code>Set-DNSUpdateCredentials -GeneratePassword -OutputCleartextPassword</code></pre>
 
 Returns password as a secure string.
-<pre><code>Get-DNSUpdateCredentials -GeneratePassword -OutputSecurePassword</code></pre>
+<pre><code>Set-DNSUpdateCredentials -GeneratePassword -OutputSecurePassword</code></pre>
 
 Will specify the DHCP server IP. This example generates a password, but it also works when providing one.
-<pre><code>Get-DNSUpdateCredentials -GeneratePassword -DHCPServer  <string></code></pre>
+<pre><code>Set-DNSUpdateCredentials -GeneratePassword -DHCPServer  <string></code></pre>
