@@ -4,10 +4,10 @@ Powershell script to set MS DHCP Server's DNS Credentials. It will create a new 
 Syntax:
 
 Will specify the password in cleartext.
-<pre><code>Get-DNSUpdateCredentials -CleartextPassword "string"</code></pre>
+<pre><code>Get-DNSUpdateCredentials -CleartextPassword "Password"</code></pre>
 
 Will specify the password as a secure string.
-<pre><code>Get-DNSUpdateCredentials -SecurePassword "string"</code></pre>
+<pre><code>Get-DNSUpdateCredentials -SecurePassword [SecureString]</code></pre>
 
 Returns the name of the user and will write an error if it fails to create one. 
 <pre><code>Get-DNSUpdateCredentials -GeneratePassword</code></pre>
