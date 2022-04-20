@@ -85,7 +85,6 @@ else {
 	else {
 		$returnObj.SecurePass = $null
 	}
+
+	return $returnObj
 }
-
-return $returnObj
-
