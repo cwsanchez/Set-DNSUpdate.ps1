@@ -22,4 +22,4 @@ Returns password as a secure string.
 <pre><code>Set-DNSUpdateCredentials -GeneratePassword -OutputSecurePassword</code></pre>
 
 Will specify the DHCP server IP. This example generates a password, but it also works when providing one.
-<pre><code>Set-DNSUpdateCredentials -GeneratePassword -DHCPServer  <string></code></pre>
+<pre><code>Set-DNSUpdateCredentials -GeneratePassword -DHCPServer "IP/hostname" <string></code></pre>
