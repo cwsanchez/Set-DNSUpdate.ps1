@@ -1,5 +1,5 @@
 # Set-DNSUpdateCredential.ps1
-Powershell script to set MS DHCP Server's DNS Credentials. It will create a new user, make it a member of DNSUpdateProxy, and set it as the DHCP server's DNS credentials. This must be run on a server with AD installed. If the DHCP server is on another IP, you can specify with "-DHCPServer".
+Powershell script to set MS DHCP Server's DNS Credential. It will create a new user, make it a member of DNSUpdateProxy, and set it as the DHCP server's DNS credential. This must be run on a server with AD installed. If the DHCP server is on another IP, you can specify with "-DHCPServer".
 
 Syntax:
 
