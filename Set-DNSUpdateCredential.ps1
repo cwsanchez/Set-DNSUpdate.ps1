@@ -55,7 +55,7 @@ catch {
 		exit
 	}
 	else {
-		Write-Host -Object "Error occurred, DNSUpdate user is likely already created. Remove user then run script again."
+		Write-Host -Object "Error occurred, Active Directory module may not be installed. Otherwise, DNSUpdate user could already exist."
 		exit
 	}
 }
